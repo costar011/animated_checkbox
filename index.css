@@ -18,3 +18,19 @@ body {
 .container {
     display: flex;
 }
+
+.checkbox__container {
+    height: 40px;
+    position: relative;
+    margin: 10px;
+}
+
+.checkbox__container input[type="checkbox"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    appearance: none;
+    z-index: 100;
+    cursor: pointer;
+}
