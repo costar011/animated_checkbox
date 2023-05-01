@@ -34,3 +34,21 @@ body {
     z-index: 100;
     cursor: pointer;
 }
+
+.box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #85cdfd;
+    border-radius: 5px;
+
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transition: border 0.4s;
+}
+
+.box i {
+    font-size: 12px;
+    transform: scale(0);
+    transition: transform 0.4s;
+}
