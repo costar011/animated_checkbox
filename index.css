@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arimo:wght@600&family=Merriweather:wght@300&family=Noto+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222222;
+}
+
+.container {
+  display: flex;
+}
+
+.checkbox__container {
+  height: 40px;
+  position: relative;
+  margin: 10px;
+}
