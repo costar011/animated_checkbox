@@ -71,3 +71,11 @@ body {
   border-radius: 5px;
   transition: border 0.4s;
 }
+
+.checkbox__container input[type="checkbox"]:checked ~.label__container {
+  border: 2px solid #85cdfd00;
+}
+
+.checkbox__container input[type="checkbox"]:checked ~.label__container {
+  border: 2px solid #85cdfd;
+}
